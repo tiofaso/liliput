@@ -1,0 +1,35 @@
+$_SESSION['usuariodados'] = array();
+$_SESSION['usuariodados'][0] = $row['numreg']; //número de registro do usuário
+$_SESSION['usuariodados'][1] = base64_encode($row['usuario']); //e-mail do usuário
+$_SESSION['usuariodados'][2] = base64_encode($row['apelido']); //apelido do usuário
+$_SESSION['usuariodados'][3] = base64_encode($row['senha']); //senha
+$_SESSION['usuariodados'][4] = base64_encode($row['privilegios']); //privilegio 
+$_SESSION['usuariodados'][5] = dadousuario($row['numreg'],'cep'); //cep 
+$_SESSION['usuariodados'][6] = 0; //tamanho do carrinho
+$_SESSION['usuariodados'][7] tipo frete
+$_SESSION['usuariodados'][8] imagens
+$_SESSION['usuariodados'][9] numpedido
+$_SESSION['usuariodados'][10] bloqueio de pedido
+
+mudar frete?: 
+Notice: Undefined index: frete in D:\wamp\www\lilliput\aplicativos\editor-m
+
+1kg = 1000
+x= 300
+
+1 - 103 - 8,20
+2 - 118 - 8,20
+3 - 159 - 11,10
+4 - 201
+
+<img src="img/editor-mini-mi-img/rosto/141020101816hfld2273.png" style="position:absolute;top:85;left:117;z-index:2;">
+
+echo "<p><span id=\"correto\">&#8730</span>&nbsp;Seu pedido foi enviado com sucesso</p>\n";?>
+<?php echo "<p>Em alguns instantes voc&ecirc; receber&aacute; uma mensagem com a confirma&ccedil;&atilde;o do seu pedido</p>\n";?>
+<?php echo "<p>Agora o bonequeiro analisar&aacute; o seu pedido. Isso &eacute; necess&aacute;rio pois cada mini-mi &eacute; e somente ap&oacute;s a aprova&ccedil;&atilde;o dele voc&ecirc; receber&aacute; uma mensagem confirmando o seu pedido, juntamente com o meio de ado&ccedil;&atilde;o (forma de pagamento)</p>\n";?>
+</div>
+
+
+Agora o bonequeiro analisará o seu pedido para confirmar todos os itens escolhidos ou mesmo entrar em contado com você para sanar alguma dúvida.
+
+Depois da análise você receberá um e-mail com o meio de adoção (forma de pagamento) e somente após a confirmação do mesmo o processo de manufatura do seu pedido irá se iniciar.

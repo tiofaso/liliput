@@ -1,0 +1,29 @@
+#erro{
+	color: #ff0000;
+	font-weight: strong;	
+	font-size:small;
+}
+
+#msg{
+	color: #b4b4b4;
+	font-size:small;
+}
+
+#menu ul li{
+	display: inline;
+	}
+
+#paginacao ul li{
+	display: inline;
+	padding:10px;
+	}
+#colesq{
+	float: left;
+	width: 50%;
+	
+	}
+#coldir{
+	float: right;
+	width: 50%;
+	
+	}

@@ -1,0 +1,3 @@
+Coloque aqui as fotos dos clientes. Tá no ../backup-fotosclientes/
+
+.faso 30/10/2012

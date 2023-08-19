@@ -1,0 +1,24 @@
+#editor{
+	width: 257px;
+	height: 264px;
+	//background:#ccc;	
+	background-image:url('../editor-img/geral/bg-infinito.png'); 
+	background-repeat:repeat;
+	position: relative;
+	float: left;
+} 
+	
+#conteudo{
+	width: 237px;
+	height: 244px;
+	position:absolute;
+	top:50%;
+	left:50%;
+	margin-top:-118px;
+	margin-left:-122px;
+}
+
+#armario{
+	float: left;	
+}
+

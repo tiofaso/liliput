@@ -1,0 +1,6 @@
+
+RewriteEngine on
+RewriteCond %{HTTP_HOST} ^login.mini-mi.net$ [OR]
+RewriteCond %{HTTP_HOST} ^www.login.mini-mi.net$
+RewriteRule ^/?$ "http\:\/\/mini\-mi\.net\/admin" [R=301,L]
+
